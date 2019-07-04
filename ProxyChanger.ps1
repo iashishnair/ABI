@@ -90,7 +90,7 @@ Build-Config
 # Assign an Icon to the Notify Icon object
 # $objNotifyIcon.Icon = "C:\ProxyToggle\ico244.ico"
 $objNotifyIcon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon("C:\Windows\System32\iscsicpl.exe")
-$objNotifyIcon.Text = "Proxy Toggle"
+$objNotifyIcon.Text = "Proxy Changer"
 # Assign the Context Menu
 $objNotifyIcon.ContextMenu = $objContextMenu
 $objForm.ContextMenu = $objContextMenu
