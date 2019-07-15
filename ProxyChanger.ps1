@@ -10,7 +10,7 @@ $ToggleMenuItem2 = New-Object System.Windows.Forms.MenuItem
 $StateMenuItem = New-Object System.Windows.Forms.MenuItem
 # $regKey="HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings"
 $regKey="http://pac.zscalertwo.net/ab-inbev.com/Europe_New.pac"
-$AutoConfig = "http://pac.zscalertwo.net/anheuser-busch.com/GHQ_NYO.pac"
+$AutoConfig = "http://pac.zscalertwo.net/ab-inbev.com/Europe_New.pac"
 
 Function UsePACFile {
 # Modify proxy settings to "Use Config File"
